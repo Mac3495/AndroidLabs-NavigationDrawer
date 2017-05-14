@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--Este menu contiene los items de nuestro Navigation Drawer-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/perros"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Perros" />
+        <item
+            android:id="@+id/gatos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gatos" />
+        <item
+            android:id="@+id/conejo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Conejo" />
+        <item
+            android:id="@+id/mono"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mono" />
+    </group>
+
+    <item android:title="Comunicate">
+        <menu>
+            <item
+                android:id="@+id/contacto"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contacto" />
+            <item
+                android:id="@+id/ubicacion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Ubicacion" />
+        </menu>
+    </item>
+
+</menu>
